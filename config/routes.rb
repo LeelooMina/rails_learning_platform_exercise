@@ -24,5 +24,5 @@ Rails.application.routes.draw do
 
   get "/blogs/:id", to: "blogs#show"
 
-  resourses :blogs
+  resource :blogs
 end
